@@ -1,8 +1,7 @@
 (define (domain dockerdomain)
 (:requirements :strips :typing :negative-preconditions)
 (:types loc entity - object
-        truck container - entity
-)
+        truck container - entity)
 (:predicates (truck-empty ?t - truck)
             (at ?p - loc ?ent - entity)
             (on ?t - truck ?c - container)
