@@ -11,8 +11,11 @@
           (breeze x3 y4)
           (breeze x4 y3)
           (breeze x3 y2)
-          (wumpus x1 y2)
-          (wumpus x1 y2)
+          (glitter x2 y3)
+          (pit x3 y1)
+          (pit x3 y3)
+          (pit x4 y4)
+          (hero x1 y1)
                    
    )
    (:goal )
